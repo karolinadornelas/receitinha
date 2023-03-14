@@ -1,0 +1,251 @@
+body{
+    font-family: Quicksand;
+    line-height: 1.6em;
+    font-size: 15px;
+    text-align: left;
+    overflow-x: hidden;
+    background: rgb(128, 151, 180);
+}
+
+#container{
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 966.25px;
+}
+
+#universo{
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 225px;
+}
+
+.florzinha{
+    display: flex;
+}
+
+.rosa{
+    width: 100px;
+}
+
+.catito{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+#box{
+    margin-left: 305px;
+    display: block;
+}
+
+.boxy{
+    overflow: hidden;
+    margin-bottom: 45px;
+    width: 700px;
+    min-width: 210px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: rgb(128, 151, 180);
+    border: 1px solid #fdfdf1;
+    box-shadow: 11.25px calc((400px + (25px * 2)) * 0.025) #d1d0e7; /*n entendi isso mas deu certo*/
+}
+
+.foin{
+    padding: 5px;
+    border: 1px solid #fdfdf1;
+    font-family: silkscreen;
+    font-size: 9px;
+    color: #ec5a5a;
+    line-height: 1em;
+    overflow: auto;
+    border-radius: 20px;
+}
+.titulo{
+    font-size: 17px;
+    font-family: quicksand regular;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000000;
+    text-align: center;
+    margin: 10px;
+}
+.cha{
+    align-self: center;
+    margin: 10px;
+}
+
+.chazinho{
+    display: flex;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    color: #2e2e2e;
+}
+
+.sky{
+    margin-top: 10px;
+}
+
+.biscoito{
+    margin-top: 20px;
+    width: inherit;
+    background-color: #828cad;
+    box-shadow: 6px 6px #d1d0e7;
+    display: block;
+    border-radius: 20px;
+}
+
+.biscoitinho{
+    border: 1px solid #fdfdf1;
+    padding: 5px 5px 0px 5px;
+    border-radius: 20px;
+}
+
+.bolacha{
+    border: 1px solid #fdfdf1;
+    padding: 5px;
+    overflow: auto;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+.bolachao{
+    float: left;
+    margin-top: 2.5px;
+    width: calc(100% - 50px);
+    font-family: silkscreen;
+    font-size: 15px;
+    color: #2e2e2e;
+    line-height: 1em;
+    max-height: 1em;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.bw{
+    white-space: nowrap;
+    align-self: center;
+}
+
+.menu{
+    margin-top: 20px;
+}
+
+.nuvem{
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.it{
+    box-shadow: 5px 6px #d1d0e7;
+    border-radius: 20px;
+}
+
+.of{
+    margin-left: 10px;
+    box-shadow: 6px 6px #d1d0e7;
+    border-radius: 20px;
+}
+
+.it, .of{
+    margin-top: 10px;
+    width: calc((100% / 2) - 23px);
+    padding: 3px 8px;
+    background: #828cad;
+    border: 1px solid #fdfdf1;
+    font-family: silkscreen;
+    font-size: 12px;
+    color: #2e2e2e;
+    line-height: 2em;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#post{
+    margin-left: calc(225px + 80px);
+    display: block;
+
+}
+.postagem{
+    overflow: hidden;
+    margin-bottom: 45px;
+    width: 400px;
+    min-width: 210px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #fad6ab;
+    border: 1px solid #fdfdf1;
+    box-shadow: 11.25px calc((400px + (25px * 2)) * 0.025) #f6e3e3; /*n entendi isso mas deu certo*/
+}
+
+.conteudo{
+    padding: 5px;
+    border: 1px solid #fdfdf1;
+    font-family: silkscreen;
+    font-size: 9px;
+    color: #ec5a5a;
+    line-height: 1em;
+    border-radius: 20px;
+}
+
+p{
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 12px;
+    font-family: quicksand regular;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000000;
+    text-align: center;
+}
+
+
+a {
+    color: #a74e13;
+    text-decoration: none;
+    cursor: normal;
+    text-decoration: none;
+}
+
+.foto{
+    margin-left: 75px;
+ }
+
+.caixa{
+    margin-top: 2px;
+}
+
+h1 {
+    font-size: 17px;
+    font-family: quicksand regular;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000000;
+    text-align: center;
+    margin-top: 55px;
+}
+
+h2 {
+    font-size: 13px;
+    font-family: quicksand regular;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000000;
+    text-align: center;
+}
+
+.lanche{
+    font-size: 12px;
+    color: #9b5909;
+}
