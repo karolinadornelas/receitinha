@@ -251,6 +251,9 @@ h2 {
     color: #9b5909;
 }
 
+form{
+    display:grid;
+}
 form input,
 form textarea,
 form button {
