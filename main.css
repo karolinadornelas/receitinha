@@ -4,7 +4,7 @@ body{
     font-size: 15px;
     text-align: left;
     overflow-x: hidden;
-    background: rgb(247, 223, 191);
+    background: rgb(247, 194, 130);
 }
 
 #container{
@@ -40,42 +40,6 @@ body{
     border-radius: 20px;
 }
 
-#box{
-    margin-left: 305px;
-    display: block;
-}
-
-.boxy{
-    overflow: hidden;
-    margin-bottom: 45px;
-    width: 700px;
-    min-width: 210px;
-    padding: 25px;
-    border-radius: 20px;
-    background-color: rgb(248, 227, 209);
-    border: 1px solid #fdfdf1;
-    box-shadow: 11.25px calc((400px + (25px * 2)) * 0.025) #ec9999; /*n entendi isso mas deu certo*/
-}
-
-.foin{
-    padding: 5px;
-    border: 1px solid #fdfdf1;
-    font-family: silkscreen;
-    font-size: 9px;
-    color: #ec5a5a;
-    line-height: 1em;
-    overflow: auto;
-    border-radius: 20px;
-}
-.titulo{
-    font-size: 17px;
-    font-family: quicksand regular;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #000000;
-    text-align: center;
-    margin: 10px;
-}
 .cha{
     align-self: center;
     margin: 10px;
@@ -85,7 +49,6 @@ body{
     display: flex;
     margin-left: 20px;
     padding-bottom: 10px;
-    color: #2e2e2e;
 }
 
 .sky{
@@ -95,20 +58,20 @@ body{
 .biscoito{
     margin-top: 20px;
     width: inherit;
-    background-color: rgb(248, 227, 209);
-    box-shadow: 6px 6px #ec9999;
+    background-color: #fad6ab;
+    box-shadow: 6px 6px #f6e3e3;
     display: block;
     border-radius: 20px;
 }
 
 .biscoitinho{
-    border: 1px solid #fdfdf1;
+    border: 1px solid #eab499;
     padding: 5px 5px 0px 5px;
     border-radius: 20px;
 }
 
 .bolacha{
-    border: 1px solid #fdfdf1;
+    border: 1px solid #eab499;
     padding: 5px;
     overflow: auto;
     margin-bottom: 5px;
@@ -121,7 +84,7 @@ body{
     width: calc(100% - 50px);
     font-family: silkscreen;
     font-size: 15px;
-    color: #2e2e2e;
+    color: #915c1c;
     line-height: 1em;
     max-height: 1em;
     overflow: hidden;
@@ -143,13 +106,13 @@ body{
 }
 
 .it{
-    box-shadow: 5px 6px #ec9999;
+    box-shadow: 5px 6px #f6e3e3;
     border-radius: 20px;
 }
 
 .of{
     margin-left: 10px;
-    box-shadow: 6px 6px #ec9999;
+    box-shadow: 6px 6px #f6e3e3;
     border-radius: 20px;
 }
 
@@ -157,11 +120,11 @@ body{
     margin-top: 10px;
     width: calc((100% / 2) - 23px);
     padding: 3px 8px;
-    background: rgb(248, 227, 209);
-    border: 1px solid #fdfdf1;
+    background: #F6F6F6;
+    border: 1px solid #f7c282;
     font-family: silkscreen;
     font-size: 12px;
-    color: #2e2e2e;
+    color: #9b5909;
     line-height: 2em;
     text-align: center;
     cursor: pointer;
@@ -181,18 +144,35 @@ body{
     padding: 25px;
     border-radius: 20px;
     background-color: #fad6ab;
-    border: 1px solid #fdfdf1;
-    box-shadow: 11.25px calc((400px + (25px * 2)) * 0.025) #ec9999; /*n entendi isso mas deu certo*/
+    border: 1px solid #faaaaa;
+    box-shadow: 11.25px calc((400px + (25px * 2)) * 0.025) #f6e3e3; /*n entendi isso mas deu certo*/
 }
 
-.conteudo{
+.info{
     padding: 5px;
-    border: 1px solid #fdfdf1;
+    border: 1px solid #faaaaa;
+    font-family: silkscreen;
+    font-size: 9px;
+    color: #ec5a5a;
+    line-height: 1em;
+    overflow: auto;
+    border-radius: 20px;
+}
+
+.content{
+    padding: 5px;
+    border: 1px solid #faaaaa;
     font-family: silkscreen;
     font-size: 9px;
     color: #ec5a5a;
     line-height: 1em;
     border-radius: 20px;
+}
+
+.content{
+    width: auto;
+    letter-spacing: -0.5px;
+    color: #e8abab;
 }
 
 p{
@@ -224,7 +204,6 @@ a {
 
 .caixa{
     margin-top: 2px;
-    display: block;
 }
 
 h1 {
@@ -249,19 +228,4 @@ h2 {
 .lanche{
     font-size: 12px;
     color: #9b5909;
-}
-
-form input,
-form textarea,
-form button {
-    display: grid;
-    width: 320px;
-    margin-bottom: 8px;
-    padding: 8px;
-    border-radius: 20px;
-    margin-left: 210px;
-}
-
-form textarea{
-    resize: none;
 }
