@@ -254,7 +254,7 @@ h2 {
 form input,
 form textarea,
 form button {
-    display: block;
+    display: grid;
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
