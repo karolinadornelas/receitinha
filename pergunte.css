@@ -254,16 +254,6 @@ h2 {
 form{
     display:grid;
 }
-form input,
-form textarea,
-form button {
-    display: grid;
-    width: 320px;
-    margin-bottom: 8px;
-    padding: 8px;
-    border-radius: 20px;
-    margin-left: 210px;
-}
 
 form textarea{
     resize: none;
